@@ -6,3 +6,5 @@ Inherits: [IXStoreImpl](IXStoreImpl.md)
 
 Layout:
 - XStoreIsAvailabilityPurchasable (no docs)
+
+This method does not have a page in the official documentation, it is mentioned in the [Unity C# wrappers](https://learn.microsoft.com/xbox/gdk/docs/gdk-dev/pc-dev/tutorials/get-started-with-unity-pc/features/gdk-unity-api-wrappers).
