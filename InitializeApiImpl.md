@@ -6,3 +6,5 @@ HRESULT WINAPI InitializeApiImpl(
     ULONG gsVer
 );
 ```
+
+Seemingly never called, see [InitializeApiImplEx2](InitializeApiImplEx2.md).

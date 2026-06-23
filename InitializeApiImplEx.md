@@ -7,3 +7,5 @@ HRESULT WINAPI InitializeApiImplEx(
     char mode
 );
 ```
+
+Seemingly never called, see [InitializeApiImplEx2](InitializeApiImplEx2.md).
