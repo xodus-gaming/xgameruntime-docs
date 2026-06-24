@@ -6,16 +6,9 @@ HRESULT WINAPI InitializeApiImpl(
     ULONG gsVer,
     char mode,
     struct {
-        UINT32 unknown0; // always 1
-        BOOL isInline; // only 1 when options.gameConfigSource == XGameRuntimeGameConfigSource::Inline
-        const char *gameConfig; // same pointer as options.gameConfig
-        void *unknown1; // null
-        void *unknown2;
-        void *unknown3;
-        void *unknown4;
-        void *unknown5;
-        void *unknown6; // null
-        XGameRuntimeOptions options;
+        UINT32 unknown; // always 1
+        BOOL isInline; // only 1 when XGameRuntimeOptions::gameConfigSource == XGameRuntimeGameConfigSource::Inline
+        const char *gameConfig; // identical pointer to XGameRuntimeOptions::gameConfig
     } *options
 );
 ```
